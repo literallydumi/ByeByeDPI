@@ -12,15 +12,6 @@ server.
 It does not proxy, encrypt, or route your traffic anywhere — it only
 reshapes the packets your own machine already sends, on their way out.
 
-## Warning 1
-Because of Kaspersky's agreement with the Russian government ByeByeDPI
-and other DPI bypassing programs can not bypass DPI blocks if you have
-Kaspersky Antivirus installed on your computer.
-
-If you see a warning that says Smart App Control blocked a program that
-is not safe to run while opening **dnsredir.cmd**, simply right click
-the file, click **Properties**, then click **Unblock File** or **Unblock**.
-
 ## Features
 
 - **TLS ClientHello fragmentation** — splits the ClientHello across
@@ -124,6 +115,17 @@ This tool is intended for personal use to work around overly broad or
 faulty traffic filtering on networks you are authorized to use it on.
 You are responsible for complying with the laws and terms of service
 that apply to you.
+
+
+## Warnings
+Because of Kaspersky's agreement with the Russian government ByeByeDPI
+and other DPI bypassing programs can not bypass DPI blocks if you have
+Kaspersky Antivirus installed on your computer.
+
+If you see a warning that says Smart App Control blocked a program that
+is not safe to run while opening **dnsredir.cmd**, simply right click
+the file, click **Properties**, then click **Unblock File** or **Unblock**.
+
 
 ---
 
